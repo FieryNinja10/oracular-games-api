@@ -33,7 +33,8 @@
   "lint-staged": {
     "src/**/*.ts": [
       "bun run prettier:format",
-      "bun run lint:check"
+      "bun run lint:check",
+      "bun run types:check"
     ]
   },
   "scripts": {

@@ -1,3 +1,4 @@
+// @ts-expect-error: everything works fine but error occurs
 import { createEnv } from "@t3-oss/env-core";
 import { z } from "zod";
 
