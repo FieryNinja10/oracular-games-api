@@ -25,6 +25,7 @@
     "eslint-plugin-prettier": "^5.1.3",
     "husky": "^9.0.11",
     "prettier": "^3.2.5",
+    "tsc-files": "^1.1.4",
     "typescript": "latest",
     "typescript-eslint": "^7.2.0"
   },
@@ -49,7 +50,7 @@
     "dev": "bun run src/app.ts",
     "prepare": "husky",
     "commitlint": "commitlint --edit",
-    "types:check": "tsc --pretty --noEmit --skipLibCheck",
+    "types:check": "tsc-files --noEmit --pretty",
     "prettier:check": "prettier --check",
     "prettier:format": "prettier --write",
     "lint:check": "eslint",

@@ -20,8 +20,12 @@
     "noFallthroughCasesInSwitch": true,
 
     // Custom alias
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
+      "@db/*": ["./src/db/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@auth/*": ["./src/lib/auth/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", ".husky", "src/env.ts"]
 }
