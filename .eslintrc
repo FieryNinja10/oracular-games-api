@@ -1,0 +1,7 @@
+{
+  // fixes eslint import issues
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+  },
+}

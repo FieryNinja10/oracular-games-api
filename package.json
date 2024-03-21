@@ -42,8 +42,7 @@
     "src/**/*.ts": [
       "bun run prettier:format",
       "bun run lint:check",
-      "bun run types:check",
-      "git add"
+      "bun run types:check"
     ]
   },
   "scripts": {
