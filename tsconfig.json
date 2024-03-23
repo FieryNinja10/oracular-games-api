@@ -27,5 +27,5 @@
       "@auth/*": ["./src/lib/auth/*"]
     }
   },
-  "exclude": ["node_modules", ".husky", "src/env.ts"]
+  "exclude": ["node_modules", ".husky"]
 }
