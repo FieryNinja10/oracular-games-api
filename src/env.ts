@@ -1,5 +1,3 @@
-// @ts-nocheck: import error exists but not in editor so @ts-expect-error believes it is unused
-// @ts-expect-error: import works but error occurs
 import { createEnv } from "@t3-oss/env-core";
 import { z } from "zod";
 
