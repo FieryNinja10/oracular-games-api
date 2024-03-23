@@ -44,6 +44,10 @@
       "bun run prettier:format",
       "bun run lint:check",
       "bun run types:check"
+    ],
+    "src/**/*.js": [
+      "bun run prettier:format",
+      "bun run lint:check"
     ]
   },
   "scripts": {
